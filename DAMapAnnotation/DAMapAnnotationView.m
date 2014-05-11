@@ -39,7 +39,7 @@
 
 #pragma mark - Map Icon Utility Methods
 
-+ (UIImage *)annotationImageWithMarker:(GMSMarker *)marker andPinIcon:(UIImage *)iconImage; {
++ (UIImage *)annotationImageWithMarker:(GMSMarker *)marker andPinIcon:(UIImage *)iconImage {
     
     // Create main info window
     DAMapAnnotationView *infoWindow = [[[NSBundle mainBundle] loadNibNamed:@"DAMapAnnotationView" owner:self options:nil] objectAtIndex:0];
