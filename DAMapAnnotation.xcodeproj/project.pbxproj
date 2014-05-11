@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		774795F3191FF82F003880A4 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774795F2191FF82F003880A4 /* GoogleMaps.framework */; };
+		774795F5191FF8A0003880A4 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 774795F4191FF8A0003880A4 /* GoogleMaps.bundle */; };
+		774795F7191FF905003880A4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774795F6191FF905003880A4 /* AVFoundation.framework */; };
+		774795F9191FF90C003880A4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774795F8191FF90C003880A4 /* CoreData.framework */; };
+		774795FB191FF916003880A4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774795FA191FF916003880A4 /* CoreLocation.framework */; };
+		774795FD191FF91E003880A4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774795FC191FF91E003880A4 /* CoreText.framework */; };
+		774795FF191FF92A003880A4 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 774795FE191FF92A003880A4 /* GLKit.framework */; };
+		77479601191FF930003880A4 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77479600191FF930003880A4 /* ImageIO.framework */; };
+		77479603191FF93C003880A4 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77479602191FF93C003880A4 /* libc++.dylib */; };
+		77479605191FF955003880A4 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77479604191FF955003880A4 /* libicucore.dylib */; };
+		77479607191FF960003880A4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 77479606191FF960003880A4 /* libz.dylib */; };
+		77479609191FF96A003880A4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77479608191FF96A003880A4 /* OpenGLES.framework */; };
+		7747960B191FF976003880A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7747960A191FF976003880A4 /* QuartzCore.framework */; };
+		7747960D191FF980003880A4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7747960C191FF980003880A4 /* SystemConfiguration.framework */; };
+		77479611191FFAC9003880A4 /* DAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747960F191FFAC9003880A4 /* DAMapViewController.m */; };
+		77479612191FFAC9003880A4 /* DAMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77479610191FFAC9003880A4 /* DAMapViewController.xib */; };
+		7747961B19200C79003880A4 /* DAMapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747961A19200C79003880A4 /* DAMapAnnotationView.m */; };
+		7747961D19200C96003880A4 /* DAMapAnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7747961C19200C96003880A4 /* DAMapAnnotationView.xib */; };
+		77F55B5B191FE64400C639B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F55B5A191FE64400C639B0 /* Foundation.framework */; };
+		77F55B5D191FE64400C639B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F55B5C191FE64400C639B0 /* CoreGraphics.framework */; };
+		77F55B5F191FE64400C639B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F55B5E191FE64400C639B0 /* UIKit.framework */; };
+		77F55B65191FE64400C639B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77F55B63191FE64400C639B0 /* InfoPlist.strings */; };
+		77F55B67191FE64400C639B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F55B66191FE64400C639B0 /* main.m */; };
+		77F55B6B191FE64400C639B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F55B6A191FE64400C639B0 /* AppDelegate.m */; };
+		77F55B6D191FE64400C639B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F55B6C191FE64400C639B0 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		774795F2191FF82F003880A4 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = DAMapAnnotation/External/GoogleMaps.framework; sourceTree = "<group>"; };
+		774795F4191FF8A0003880A4 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = DAMapAnnotation/External/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		774795F6191FF905003880A4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		774795F8191FF90C003880A4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		774795FA191FF916003880A4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		774795FC191FF91E003880A4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		774795FE191FF92A003880A4 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		77479600191FF930003880A4 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		77479602191FF93C003880A4 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		77479604191FF955003880A4 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		77479606191FF960003880A4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		77479608191FF96A003880A4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7747960A191FF976003880A4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7747960C191FF980003880A4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7747960E191FFAC9003880A4 /* DAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAMapViewController.h; sourceTree = "<group>"; };
+		7747960F191FFAC9003880A4 /* DAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAMapViewController.m; sourceTree = "<group>"; };
+		77479610191FFAC9003880A4 /* DAMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DAMapViewController.xib; sourceTree = "<group>"; };
+		7747961919200C79003880A4 /* DAMapAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAMapAnnotationView.h; sourceTree = "<group>"; };
+		7747961A19200C79003880A4 /* DAMapAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAMapAnnotationView.m; sourceTree = "<group>"; };
+		7747961C19200C96003880A4 /* DAMapAnnotationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DAMapAnnotationView.xib; sourceTree = "<group>"; };
+		77F55B57191FE64400C639B0 /* DAMapAnnotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAMapAnnotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F55B5A191FE64400C639B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77F55B5C191FE64400C639B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77F55B5E191FE64400C639B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77F55B62191FE64400C639B0 /* DAMapAnnotation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DAMapAnnotation-Info.plist"; sourceTree = "<group>"; };
+		77F55B64191FE64400C639B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77F55B66191FE64400C639B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77F55B68191FE64400C639B0 /* DAMapAnnotation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DAMapAnnotation-Prefix.pch"; sourceTree = "<group>"; };
+		77F55B69191FE64400C639B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77F55B6A191FE64400C639B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77F55B6C191FE64400C639B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77F55B73191FE64400C639B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77F55B54191FE64400C639B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7747960D191FF980003880A4 /* SystemConfiguration.framework in Frameworks */,
+				7747960B191FF976003880A4 /* QuartzCore.framework in Frameworks */,
+				77479609191FF96A003880A4 /* OpenGLES.framework in Frameworks */,
+				77479607191FF960003880A4 /* libz.dylib in Frameworks */,
+				77479605191FF955003880A4 /* libicucore.dylib in Frameworks */,
+				77479603191FF93C003880A4 /* libc++.dylib in Frameworks */,
+				77479601191FF930003880A4 /* ImageIO.framework in Frameworks */,
+				774795FF191FF92A003880A4 /* GLKit.framework in Frameworks */,
+				774795FD191FF91E003880A4 /* CoreText.framework in Frameworks */,
+				774795FB191FF916003880A4 /* CoreLocation.framework in Frameworks */,
+				774795F9191FF90C003880A4 /* CoreData.framework in Frameworks */,
+				774795F7191FF905003880A4 /* AVFoundation.framework in Frameworks */,
+				77F55B5D191FE64400C639B0 /* CoreGraphics.framework in Frameworks */,
+				77F55B5F191FE64400C639B0 /* UIKit.framework in Frameworks */,
+				774795F3191FF82F003880A4 /* GoogleMaps.framework in Frameworks */,
+				77F55B5B191FE64400C639B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77F55B4E191FE64400C639B0 = {
+			isa = PBXGroup;
+			children = (
+				77F55B60191FE64400C639B0 /* DAMapAnnotation */,
+				77F55B59191FE64400C639B0 /* Frameworks */,
+				77F55B58191FE64400C639B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77F55B58191FE64400C639B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77F55B57191FE64400C639B0 /* DAMapAnnotation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77F55B59191FE64400C639B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7747960C191FF980003880A4 /* SystemConfiguration.framework */,
+				7747960A191FF976003880A4 /* QuartzCore.framework */,
+				77479608191FF96A003880A4 /* OpenGLES.framework */,
+				77479606191FF960003880A4 /* libz.dylib */,
+				77479604191FF955003880A4 /* libicucore.dylib */,
+				77479602191FF93C003880A4 /* libc++.dylib */,
+				77479600191FF930003880A4 /* ImageIO.framework */,
+				774795FE191FF92A003880A4 /* GLKit.framework */,
+				774795FC191FF91E003880A4 /* CoreText.framework */,
+				774795FA191FF916003880A4 /* CoreLocation.framework */,
+				774795F8191FF90C003880A4 /* CoreData.framework */,
+				774795F6191FF905003880A4 /* AVFoundation.framework */,
+				774795F4191FF8A0003880A4 /* GoogleMaps.bundle */,
+				774795F2191FF82F003880A4 /* GoogleMaps.framework */,
+				77F55B5A191FE64400C639B0 /* Foundation.framework */,
+				77F55B5C191FE64400C639B0 /* CoreGraphics.framework */,
+				77F55B5E191FE64400C639B0 /* UIKit.framework */,
+				77F55B73191FE64400C639B0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77F55B60191FE64400C639B0 /* DAMapAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				77F55B69191FE64400C639B0 /* AppDelegate.h */,
+				77F55B6A191FE64400C639B0 /* AppDelegate.m */,
+				77F55B6C191FE64400C639B0 /* Images.xcassets */,
+				77F55B61191FE64400C639B0 /* Supporting Files */,
+				7747960E191FFAC9003880A4 /* DAMapViewController.h */,
+				7747960F191FFAC9003880A4 /* DAMapViewController.m */,
+				77479610191FFAC9003880A4 /* DAMapViewController.xib */,
+				7747961919200C79003880A4 /* DAMapAnnotationView.h */,
+				7747961A19200C79003880A4 /* DAMapAnnotationView.m */,
+				7747961C19200C96003880A4 /* DAMapAnnotationView.xib */,
+			);
+			path = DAMapAnnotation;
+			sourceTree = "<group>";
+		};
+		77F55B61191FE64400C639B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77F55B62191FE64400C639B0 /* DAMapAnnotation-Info.plist */,
+				77F55B63191FE64400C639B0 /* InfoPlist.strings */,
+				77F55B66191FE64400C639B0 /* main.m */,
+				77F55B68191FE64400C639B0 /* DAMapAnnotation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77F55B56191FE64400C639B0 /* DAMapAnnotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F55B83191FE64400C639B0 /* Build configuration list for PBXNativeTarget "DAMapAnnotation" */;
+			buildPhases = (
+				77F55B53191FE64400C639B0 /* Sources */,
+				77F55B54191FE64400C639B0 /* Frameworks */,
+				77F55B55191FE64400C639B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAMapAnnotation;
+			productName = DAMapAnnotation;
+			productReference = 77F55B57191FE64400C639B0 /* DAMapAnnotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77F55B4F191FE64400C639B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Dejan;
+			};
+			buildConfigurationList = 77F55B52191FE64400C639B0 /* Build configuration list for PBXProject "DAMapAnnotation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77F55B4E191FE64400C639B0;
+			productRefGroup = 77F55B58191FE64400C639B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77F55B56191FE64400C639B0 /* DAMapAnnotation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77F55B55191FE64400C639B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				774795F5191FF8A0003880A4 /* GoogleMaps.bundle in Resources */,
+				7747961D19200C96003880A4 /* DAMapAnnotationView.xib in Resources */,
+				77F55B65191FE64400C639B0 /* InfoPlist.strings in Resources */,
+				77479612191FFAC9003880A4 /* DAMapViewController.xib in Resources */,
+				77F55B6D191FE64400C639B0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77F55B53191FE64400C639B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F55B6B191FE64400C639B0 /* AppDelegate.m in Sources */,
+				77479611191FFAC9003880A4 /* DAMapViewController.m in Sources */,
+				7747961B19200C79003880A4 /* DAMapAnnotationView.m in Sources */,
+				77F55B67191FE64400C639B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77F55B63191FE64400C639B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F55B64191FE64400C639B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77F55B81191FE64400C639B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77F55B82191FE64400C639B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77F55B84191FE64400C639B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DAMapAnnotation/External",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DAMapAnnotation/DAMapAnnotation-Prefix.pch";
+				INFOPLIST_FILE = "DAMapAnnotation/DAMapAnnotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77F55B85191FE64400C639B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DAMapAnnotation/External",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DAMapAnnotation/DAMapAnnotation-Prefix.pch";
+				INFOPLIST_FILE = "DAMapAnnotation/DAMapAnnotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77F55B52191FE64400C639B0 /* Build configuration list for PBXProject "DAMapAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F55B81191FE64400C639B0 /* Debug */,
+				77F55B82191FE64400C639B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F55B83191FE64400C639B0 /* Build configuration list for PBXNativeTarget "DAMapAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F55B84191FE64400C639B0 /* Debug */,
+				77F55B85191FE64400C639B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77F55B4F191FE64400C639B0 /* Project object */;
+}

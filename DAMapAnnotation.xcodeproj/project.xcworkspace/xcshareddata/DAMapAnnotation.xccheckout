@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>669DAC2B-DCC3-4B75-AB74-CD4CDE841751</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DAMapAnnotation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>52778CB5-0875-46AB-BB88-9F753A047046</key>
+		<string>https://github.com/dagostini/DAMapAnnotation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DAMapAnnotation.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>52778CB5-0875-46AB-BB88-9F753A047046</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dagostini/DAMapAnnotation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>52778CB5-0875-46AB-BB88-9F753A047046</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>52778CB5-0875-46AB-BB88-9F753A047046</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DAMapAnnotation</string>
+		</dict>
+	</array>
+</dict>
+</plist>
