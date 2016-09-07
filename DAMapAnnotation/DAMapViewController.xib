@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DAMapViewController">
@@ -15,9 +16,11 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hhX-Zk-aKZ">
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hhX-Zk-aKZ">
                     <rect key="frame" x="0.0" y="524" width="320" height="44"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Qtn-Y0-2mc"/>
+                    </constraints>
                     <items>
                         <barButtonItem title="Toogle" id="sIW-86-Fxa">
                             <connections>
@@ -26,15 +29,21 @@
                         </barButtonItem>
                     </items>
                 </toolbar>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T45-NS-uQ8" customClass="GMSMapView">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T45-NS-uQ8" customClass="GMSMapView">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <constraints>
+                <constraint firstItem="T45-NS-uQ8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="0g8-IY-xXZ"/>
+                <constraint firstAttribute="bottom" secondItem="hhX-Zk-aKZ" secondAttribute="bottom" id="5sS-Qf-GZb"/>
+                <constraint firstItem="hhX-Zk-aKZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7uR-hb-hGb"/>
+                <constraint firstItem="T45-NS-uQ8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="KY3-aL-hJO"/>
+                <constraint firstItem="hhX-Zk-aKZ" firstAttribute="top" secondItem="T45-NS-uQ8" secondAttribute="bottom" id="YDr-yk-opj"/>
+                <constraint firstAttribute="trailing" secondItem="hhX-Zk-aKZ" secondAttribute="trailing" id="ahY-hi-A5m"/>
+                <constraint firstAttribute="trailing" secondItem="T45-NS-uQ8" secondAttribute="trailing" id="nfR-ft-KmZ"/>
+            </constraints>
         </view>
     </objects>
 </document>
