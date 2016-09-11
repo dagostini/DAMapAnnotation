@@ -7,7 +7,7 @@
 //
 
 #import "DAMapViewController.h"
-#import "DAMapAnnotationView.h"
+#import "DAMapAnnotation-Swift.h"
 #import <stdlib.h>
 
 
@@ -91,7 +91,7 @@
 - (UIView *)mapView:(GMSMapView *)mapView markerInfoWindow:(GMSMarker *)marker {
     
     DAMapAnnotationView *infoWindow = [[[NSBundle mainBundle] loadNibNamed:@"DAMapAnnotationView" owner:self options:nil] objectAtIndex:0];
-    [infoWindow setMarker:marker];
+    infoWindow.marker = marker;
     
     return infoWindow;
 }
